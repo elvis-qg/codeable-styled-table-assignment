@@ -1,0 +1,54 @@
+body {
+  width: 1440px;
+  height: 863px;
+  padding: 160px 150px 150px 150px;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Overpass;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  padding-right: 55px;
+}
+
+th {
+  font-weight: normal;
+  padding: 21px 0px 20px 0px;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td {
+  padding: 24px 0px 24px 0px;
+  border-bottom: 1px solid rgba(28,28,28,0.2) ;    
+}
+
+td:nth-child(2), th:nth-child(3), th:nth-child(4) {
+  text-align: right;
+}
+
+.element-left {
+  text-align: left;
+  width: 336px;
+ 
+}
+
+.element-left input {
+  margin-right: 34px;
+}
+
+.element-right {
+  width: 200px;
+  text-align: right;
+}
+
+thead .element-right:nth-last-child, tr .element-right:nth-last-child {
+  padding-right: 18px;
+} 
+
